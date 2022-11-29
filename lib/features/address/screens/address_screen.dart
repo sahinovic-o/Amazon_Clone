@@ -5,8 +5,7 @@ import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:pay/pay.dart';
-
-import '../services/address_services.dart';
+import 'package:amazon_clone/features/address/services/address_services.dart';
 
 class AddressScreen extends StatefulWidget {
   static const String routeName = '/address';
